@@ -1,15 +1,6 @@
-Welcome to your new dbt project!
+A simple ELT project pulling Airbnb data.
 
-### Using the starter project
+Data was extracted into an S3 Bucket. From here it was transfered into Snowflake. 
+DBT was used to clean up and transform the data. Ensuring that the neccessary tests and packages were used for this.
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Dashboard was produced using preset highlighting number of hosts, new listings, distribution of super hosts, price distribution and the effects of the full moon.
